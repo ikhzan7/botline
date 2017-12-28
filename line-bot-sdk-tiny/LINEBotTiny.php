@@ -55,8 +55,8 @@ class LINEBotTiny
 {
     public function __construct($channelAccessToken, $channelSecret)
     {
-        $this->WIWyMYnVtb+yMX6B7d5ClQog81/oW/wjE15dTOvj96G+lNCTo9m/HubOxFuSrO80azDKpQRT/TVdZZJajg531ST/EgBVKZXVN0yKSxyL/Y87RgsKoRZjt1ummlOXvJ+bFzD5wiPHrC7BbLNI9xwzwQdB04t89/1O/w1cDnyilFU= = $channelAccessToken;
-        $this->81b87fa2f050d883fa82e0e40f18e59a = $channelSecret;
+        $this->channelAccessToken= $channelAccessToken;
+        $this->channelSecret= $channelSecret;
     }
 
     public function parseEvents()
